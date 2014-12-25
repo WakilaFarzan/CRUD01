@@ -70,7 +70,7 @@ $result = mysqli_query($link, $query);
             <td><?php echo $row['current_location']?></td>
             <td><?php echo $row['present_address']?></td>
             <td><?php echo $row['parmanent_address']?></td>
-            <td> <a href="#">Edit</a> | <a href="delete.php?id=<?php echo $row['id']?>">Delete</a></td>
+            <td> <a href="view.php?id=<?php echo $row['id']?>">Edit</a> | <a href="delete.php?id=<?php echo $row['id']?>">Delete</a></td>
         </tr>
 
     <?php

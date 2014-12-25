@@ -46,3 +46,4 @@ mysqli_query($link, $query);
 
 header('location:show_info.php');
 
+
